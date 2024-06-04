@@ -27,3 +27,7 @@ pnpm-debug.log*
 *.sw?
 tmp
 temp
+
+bundle.json
+materials/
+appinfo.json
