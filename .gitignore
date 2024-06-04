@@ -29,5 +29,7 @@ tmp
 temp
 
 **/bundle.json
-materials/
+bundle.json
+materials
 **/appinfo.json
+appinfo.json
