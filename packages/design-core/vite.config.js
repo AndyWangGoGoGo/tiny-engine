@@ -14,7 +14,7 @@ import { importmapPlugin } from './scripts/externalDeps'
 import visualizer from 'rollup-plugin-visualizer'
 import { getBaseUrlFromCli, copyBundleDeps, copyPreviewImportMap, copyLocalImportMap } from './scripts/localCdnFile'
 
-const origin = 'http://localhost:9090/'
+const origin = 'http://10.6.110.152:7011/'
 
 const config = {
   base: './',

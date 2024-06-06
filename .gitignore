@@ -34,3 +34,4 @@ materials
 **/appinfo.json
 appinfo.json
 package.json
+.env.pro

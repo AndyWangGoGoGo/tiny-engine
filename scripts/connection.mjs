@@ -11,7 +11,7 @@ const appDirectory = fs.realpathSync(process.cwd())
 const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath)
 const pathsDotenv = resolveApp('.env')
 // 加载.env.local
-dotenv.config({ path: `${pathsDotenv}.local` })
+dotenv.config({ path: `${pathsDotenv}.pro` })
 const { SQL_HOST, SQL_PORT, SQL_USER, SQL_PASSWORD, SQL_DATABASE } = process.env
 
 // 组件表名称
